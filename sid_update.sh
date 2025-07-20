@@ -14,7 +14,7 @@ DEBIAN_FRONTEND=noninteractive apt-get -t sid install libc6-dev libc6-dbg -y
 
 # 4. Закомментировать bullseye репозиторий
 echo "Комментируем bullseye репозиторий..."
-sed -i 's|^deb http://deb.debian.org/debian/ bullseye main|#deb http://deb.debian.org/debian/ bullseye main|' /etc/apt/sources.list
+sed -i 's|^deb http://ftp.debian.org/debian sid main|#deb http://ftp.debian.org/debian sid main|' /etc/apt/sources.list
 
 # 5. Изменить пароль пользователя root
 echo "Меняем пароль root..."
