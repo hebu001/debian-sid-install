@@ -5,6 +5,6 @@
 ## Использование
 
 ```bash
-curl -O https://raw.githubusercontent.com/ВАШ-ЮЗЕРНЕЙМ/ВАШ-РЕПОЗИТОРИЙ/main/sid_install.sh
-chmod +x sid_install.sh
-sudo ./sid_install.sh
+curl -O https://raw.githubusercontent.com/hebu001/debian-sid-install/main/sid_update.sh
+chmod +x sid_update.sh
+sudo ./sid_update.sh
