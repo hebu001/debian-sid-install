@@ -5,6 +5,8 @@
 ## Использование
 
 ```bash
+apt update
+apt install curl -y
 curl -O https://raw.githubusercontent.com/hebu001/debian-sid-install/main/sid_update.sh
 chmod +x sid_update.sh
-sudo ./sid_update.sh
+./sid_update.sh
