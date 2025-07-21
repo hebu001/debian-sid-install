@@ -12,8 +12,8 @@ apt-get update
 echo "Устанавливаем libc6-dev и libc6-dbg из sid..."
 DEBIAN_FRONTEND=noninteractive apt-get -t sid install libc6-dev libc6-dbg -y
 
-# 4. Закомментировать bullseye репозиторий
-echo "Комментируем bullseye репозиторий..."
+# 4. Закомментировать репозиторий sid
+echo "Комментируем репозиторий sid..."
 sed -i 's|^deb http://ftp.debian.org/debian sid main|#deb http://ftp.debian.org/debian sid main|' /etc/apt/sources.list
 
 # 5. Изменить пароль пользователя root
